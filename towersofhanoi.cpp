@@ -13,7 +13,7 @@ int main (){
 
 	//initialize the three towers where n is the # of rings. We do n + 1 b/c in that case there will never be an empty tower as when the ring moves there will always be a larger value there.
 	for (int i = n + 1; i >= 1; i--)
-		t[0].push_back(i);
+	t[0].push_back(i);
 	t[1].push_back(n + 1);
 	t[2].push_back(n + 1);
 
